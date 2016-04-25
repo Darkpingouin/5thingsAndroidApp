@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.a5things.MainActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mathboard"
+        android:backgroundTint="#000000"
+        android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BF3369E8"
+        android:textColor="#FFFFFF"
+        android:onClick="sendMessage"
+        android:id="@+id/Button_1"
+        android:layout_weight="1"
+        android:text="CALCUL IMC" />
+    <Button
+        android:background="#BFD50F25"
+        android:textColor="#FFFFFF"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Button_2"
+        android:text="Calcul alcoolémie"
+        android:onClick="sendMessage"/>
+    <Button
+        android:background="#BFEEB211"
+        android:textColor="#FFFFFF"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Button_3"
+        android:text="Calcul Reduction"
+        android:onClick="sendMessage"/>
+    <Button
+        android:background="#BF009925"
+        android:textColor="#FFFFFF"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Button_4"
+        android:text="Calcul Pourboire"
+        android:onClick="sendMessage"/>
+    <Button
+        android:background="#BF252525"
+        android:textColor="#FFFFFF"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Button_5"
+        android:text="A Propos"
+        android:onClick="sendMessage"/>
+    </LinearLayout>
+</RelativeLayout>
