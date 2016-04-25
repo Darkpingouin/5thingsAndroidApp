@@ -38,6 +38,7 @@
     </LinearLayout>
 
     <TextView
+        android:textStyle="bold"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Vous êtes:" />
@@ -74,6 +75,7 @@
     </LinearLayout>
 
     <TextView
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Poids:" />
@@ -87,7 +89,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Alcool pur ingéré en g (si besoin cliquer sur info):" />
+        android:textStyle="bold"
+        android:drawableRight="@drawable/infoico2"
+        android:text="Alcool pur ingéré en g / si besoin voir " />
 
     <EditText
         android:id="@+id/alcool"

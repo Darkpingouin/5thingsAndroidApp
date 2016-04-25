@@ -38,19 +38,18 @@ public class Main6Activity extends AppCompatActivity {
         float tip = 0;
         float price = 0;
         float pers = 0;
-
         if (value.matches("")) {
-            Toast.makeText(this, "You did not enter a price", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Vous n'avez pas entré de prix", Toast.LENGTH_SHORT).show();
             return;
         } else
             price = Float.valueOf(value);
         if (textTip.matches("")) {
-            Toast.makeText(this, "You did not enter tip percentage", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Vous n'avez pas entré de pourcentage de pourboire", Toast.LENGTH_SHORT).show();
             return;
         } else
             tip = Float.valueOf(textTip);
         if (peoo.matches("")) {
-            Toast.makeText(this, "You did not enter a number of person", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Vous n'avez pas indiqué le nombre de personnes", Toast.LENGTH_SHORT).show();
             return;
         } else
             pers = Float.valueOf(peoo);

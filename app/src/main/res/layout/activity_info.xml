@@ -87,7 +87,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
-            android:text="Le taux légal pour l'alcool au volant est de 0.5 g/l et de 0.2 g/l pour les permis probatoires."
+            android:text="Le taux légal pour l'alcool au volant est de \n0.5 g/l et de 0.2 g/l pour les permis probatoires."
             android:textStyle="bold" />
     </LinearLayout>
     <LinearLayout
@@ -107,7 +107,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
-            android:text="L'alcool dans le sang diminue d'environs 0.15g/h pour les hommes et 0.10g/h pour les femmes."
+            android:text="L'alcool dans le sang diminue d'environs \n0.15g/h pour les hommes et 0.10g/h pour les femmes."
             android:textStyle="bold" />
     </LinearLayout>
     <TextView
